@@ -26,7 +26,6 @@ const EditProfile = () => {
   const router = useRouter();
   const currentUser = useUser();
   const [error, setError] = useState(null);
-
   const {
     register,
     handleSubmit,

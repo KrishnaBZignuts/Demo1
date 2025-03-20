@@ -2,7 +2,6 @@
 
 import React, { use, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useSelector, useDispatch } from 'react-redux';
 import {
   Container,
   Grid,
