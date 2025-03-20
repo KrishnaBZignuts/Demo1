@@ -23,6 +23,7 @@ const Navbar = () => {
 
   const getInitials = (first, last) =>
     first && last ? `${first[0]}${last[0]}`.toUpperCase() : 'U';
+  console.log(first)
   const initials = getInitials(firstName, lastName);
   const handleClick = (event) => setAnchorEl(event.currentTarget);
   const handleClose = () => setAnchorEl(null);
